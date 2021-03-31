@@ -8,6 +8,7 @@ import { BuscarComponent } from './pages/buscar/buscar.component';
 import { HeroesRoutingModule } from './heroes-routing.module';
 import { EditarComponent } from './pages/editar/editar.component';
 import { HeroeComponent } from './pages/heroe/heroe.component';
+import { MaterialModule } from '../material/material.module';
 
 
 
@@ -16,6 +17,7 @@ import { HeroeComponent } from './pages/heroe/heroe.component';
   imports: [
     CommonModule,
     FlexLayoutModule,
+    MaterialModule,
     HeroesRoutingModule
   ]
 })
